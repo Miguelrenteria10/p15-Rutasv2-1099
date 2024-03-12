@@ -8,7 +8,7 @@ class PantallaInicial_1099 extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Text("Pantalla Inicial Renteria1099"),
-          backgroundColor: Color(0xff5e07ff),
+          backgroundColor: Color(0xff25cf88),
         ),
         body: Center(
             child: Column(
