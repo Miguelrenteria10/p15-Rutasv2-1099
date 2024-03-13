@@ -8,23 +8,20 @@ class Pantalla2_1099 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Pantalla 2 Renteria1099"),
-        backgroundColor: Color(0xff25cf88),
+        backgroundColor: Color(0xff40b7db),
       ),
       body: Center(
         child: Container(
-          color: Color(0xff25cf88),
-          width: double.infinity,
-          height: 200,
-          child: Card(
-            color: Color(0xff10e3ea),
-            margin: EdgeInsets.all(34),
-            child: Padding(
-              padding: EdgeInsets.all(18),
-              child: Text(
-                'Miguel Jared Renteria 1099',
-                style: TextStyle(fontSize: 30, color: Color(0xffffffff)),
-              ),
-            ),
+          color: Colors.cyan,
+          constraints: BoxConstraints(
+            minHeight: 100,
+            minWidth: 200,
+            maxHeight: 300,
+            maxWidth: 300,
+          ),
+          child: Text(
+            ' Renteria1099',
+            style: TextStyle(fontSize: 30),
           ),
         ),
       ),

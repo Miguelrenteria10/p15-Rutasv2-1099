@@ -6,25 +6,23 @@ class Pantalla1_1099 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: const Text("Card p1 Renteria1099"),
-          backgroundColor: Color(0xff25cf88),
-        ),
-        body: Center(
-          child: Card(
-            elevation: 10,
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-            color: Color(0xff25cf88),
-            child: Padding(
-              padding: EdgeInsets.all(20),
-              child: Text(
-                "Card Renteria",
-                style: TextStyle(fontSize: 30, color: Colors.white),
-              ),
-            ),
-            //ninios
+      appBar: AppBar(
+        title: const Text(" Renteria1099"),
+      ),
+      body: Center(
+        child: Container(
+          color: Color(0xff1ce095),
+          width: 300,
+          height: 300,
+          padding: EdgeInsets.all(32),
+          margin: EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+          alignment: Alignment.center,
+          child: Text(
+            'Renteria_1099',
+            style: TextStyle(fontSize: 30),
           ),
-        ));
+        ),
+      ),
+    );
   }
 }
